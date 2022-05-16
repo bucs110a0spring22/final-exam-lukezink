@@ -12,16 +12,20 @@ Please make sure you have completed the soot survey at:
     [soot.binghamton.edu](https://soot.binghamton.edu)
 
 Please list the urls for the APIs you used:
+https://zoo-animal-api.herokuapp.com/animals/rand
+https://pokeapi.co/api/v2/pokemon/
 
 Summary of Program:
+This program takes the 2 API's, gathers the name and weight of a random pokemon and zoo animal, and then a totally inaccurate probability equation determines which species would win in a fight purely based off of weight difference. 
 
 Most Challenging topic in the course:
+Reading JSON files. I don't know why, but I could not do it for some reason, until this test.
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+ N/A
 
 ## REFERENCES:
- < List any outside resources used >
+ N/A
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+ In the rubric, it says a __str__ function is required; however, I talked to Tony, and he said that what I had here currently is enough.
