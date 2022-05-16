@@ -2,7 +2,12 @@ import PokeAPI
 import ZooAnimalAPI
 import random
 
-def fight(aniname,aniweight,pokename,pokeweight):
+def fight(aniname="",aniweight=0,pokename="",pokeweight=0):
+  '''
+  Determines who would win based off of weight.
+  Takes names(string) and weight(float)
+  Returns a string statement saying the winner and chance.
+  '''
   if (aniweight > pokeweight):
     statcalc = (aniweight-pokeweight)/aniweight
     if statcalc < 0.5:
