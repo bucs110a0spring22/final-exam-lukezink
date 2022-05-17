@@ -4,6 +4,9 @@ class ZooAnimalAPI:
 
   def __init__(self):
     self.api_url = 'https://zoo-animal-api.herokuapp.com/animals/rand'
+
+  def __str__(self):
+    print ("This is ZooAnimalAPI with URL: https://zoo-animal-api.herokuapp.com/animals/rand/")
     
   def getInfo(self):
     '''

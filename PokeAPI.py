@@ -5,6 +5,10 @@ class PokeAPI:
   def __init__(self, numbid=1):
     self.api_url = 'https://pokeapi.co/api/v2/pokemon/'+str(numbid)
 
+  def __str__(self):
+    print ("This is PokeAPI with URL: https://pokeapi.co/api/v2/pokemon/")
+    
+
   def getName(self):
     """
     Returns the name of the pokemon
